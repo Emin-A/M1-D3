@@ -11,20 +11,20 @@ Create and array with the first 5 positive numbers
 */
 
 /* WRITE YOUR CODE HERE */
-// const myArray = [1, 2, 3, 4, 5];
-// console.log(myArray);
+const myArray = [1, 2, 3, 4, 5];
+console.log(myArray);
 
 /* EXERCISE 2
 Create an object containing your name, surname, email address and age.
 */
 
 /* WRITE YOUR CODE HERE */
-// const user = {
-//   name: "Emin",
-//   surname: "Avdovic",
-//   email: "eminavdovic@gmail.com",
-//   age: 30,
-// };
+const user = {
+  name: "Emin",
+  surname: "Avdovic",
+  email: "eminavdovic@gmail.com",
+  age: 30,
+};
 
 // console.log(user);
 
@@ -35,14 +35,14 @@ Add to the previously created object a boolean value to rappresent wheter you ha
 /* WRITE YOUR CODE HERE */
 // for this part o work , disable in exercise 2 console.log(user) !
 
-// user.driversLicense = "yes"; // change this to "yes" or "no" for different result
-// console.log(user);
+user.driversLicense = "yes"; // change this to "yes" or "no" for different result
+console.log(user);
 
-// if (user.driversLicense === "yes") {
-//   console.log((user.driversLicense = "Drivers license exist!"));
-// } else if (user.driversLicense === "no") {
-//   console.log("Drivers license does not exist!");
-// }
+if (user.driversLicense === "yes") {
+  console.log((user.driversLicense = "Drivers license exist!"));
+} else if (user.driversLicense === "no") {
+  console.log("Drivers license does not exist!");
+}
 
 /* EXERCISE 4
 Remove from the previously created object the age
@@ -50,25 +50,25 @@ Remove from the previously created object the age
 
 /* WRITE YOUR CODE HERE */
 // for this part o work , disable in exercise 2 and exercise 3 console.log(user) !
-// delete user.age;
-// console.log(user);
+delete user.age;
+console.log(user);
 
 /* EXERCISE 5
 Create a second object with name, surname, email address and verify that this object has a different email address
 */
 /* WRITE YOUR CODE HERE */
-// const user1 = {
-//   name: "John",
-//   surname: "Travolta",
-//   email: "travolta@gmail.com",
-//   age: 66,
-// };
-// console.log(user1);
-// if (user1.email !== user.email) {
-//   console.log("Different email!");
-// } else {
-//   console.log("Same email!");
-// }
+const user1 = {
+  name: "John",
+  surname: "Travolta",
+  email: "travolta@gmail.com",
+  age: 66,
+};
+console.log(user1);
+if (user1.email !== user.email) {
+  console.log("Different email!");
+} else {
+  console.log("Same email!");
+}
 // I could have chosen console.log(user1.email !== user.email) but i used the if statement to compare both objects;
 /* EXERCISE 6
 You are working for an eCommerce. In the variable totalShoppingCart you have the total amount spent by the current user.
@@ -89,15 +89,15 @@ Write an algorithm that calculate totalCost based on this assumption.
 
 //Attempt No.2:
 
-// const totalShoppingCart = 60;
+const totalShoppingCart = 60;
 
-// for (let totalShoppingCart = 0; totalShoppingCart <= 50; totalShoppingCart++) {
-//   if (totalShoppingCart >= 50) {
-//     console.log("Free Shipping!");
-//   } else {
-//     console.log("Costs 10€ !");
-//   }
-// }
+for (let totalShoppingCart = 0; totalShoppingCart <= 50; totalShoppingCart++) {
+  if (totalShoppingCart >= 50) {
+    console.log("Free Shipping!");
+  } else {
+    console.log("Costs 10€ !");
+  }
+}
 
 /* EXERCISE 7
 You are working for the same eCommerce. Today is the black friday and everything has a 20% discount at the end of the purchase.
@@ -106,13 +106,12 @@ Modify the previous answer inserting this information and, applying the same rul
 
 /* WRITE YOUR CODE HERE */
 
-// let totalShoppingCart = 60;
+let totalShoppingCart = 60;
 
-// for (let totalShoppingCart = 0; totalShoppingCart <= 50; totalShoppingCart++) {
-//   if (totaShoppinCart % 20 ) {
-
-//   }
-// }
+for (let totalShoppingCart = 0; totalShoppingCart <= 50; totalShoppingCart++) {
+  if (totaShoppinCart % 20) {
+  }
+}
 
 /* EXERCISE 8
 Create an object rapresenting a car with properties like brand, model, licensePlate.
